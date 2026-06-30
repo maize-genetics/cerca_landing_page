@@ -18,3 +18,6 @@ desktop.ini
 # Logs / temp
 *.log
 .tmp/
+
+# Local/CI-generated runtime config (contains contact email; never commit)
+js/cerca-config.js

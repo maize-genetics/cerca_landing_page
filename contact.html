@@ -68,20 +68,20 @@
                         <div>• Donors and institutions: back scalable, public-interest innovation.</div>
                         <div>• Communicators: help make advanced agronomy accessible.</div></div></div></div>
                   <div class="cta-box"><strong>Contact form</strong>
-                      <form class="cta-form" onsubmit="event.preventDefault(); alert('Connect this form to your production email platform or CRM.');">
-                          <input type="text" placeholder="Full name" aria-label="Full name">
-                          <input type="email" placeholder="Email address" aria-label="Email address">
-                          <input type="text" placeholder="Organization" aria-label="Organization">
-                          <select aria-label="Topic">
+                      <form class="cta-form" id="contactForm">
+                          <input type="text" name="name" placeholder="Full name" aria-label="Full name">
+                          <input type="email" name="email" placeholder="Email address" aria-label="Email address">
+                          <input type="text" name="organization" placeholder="Organization" aria-label="Organization">
+                          <select name="topic" aria-label="Topic">
                               <option>Funding</option>
                               <option>Research collaboration</option>
                               <option>Farmer outreach</option>
                               <option>Speaking or media</option>
                               <option>General contact</option></select>
-                          <textarea rows="5" placeholder="How can we help?" aria-label="How can we help?"></textarea>
+                          <textarea name="message" rows="5" placeholder="How can we help?" aria-label="How can we help?"></textarea>
                           <button type="submit">Connect to CERCA</button>
                           <p class="form-success" style="display:none;">
-                          Message sent successfully</p>
+                          Opening your email app...</p>
                       </form></div></div></div></section></main>
     <div class="parallax" style="background-image:url(images/background_index.JPG);"></div>
   
@@ -135,5 +135,7 @@
 
   <script src="js/cerca-global.js"></script>
   <script src="js/cerca-home.js"></script>
+  <script src="js/cerca-config.js"></script>
+  <script src="js/cerca-contact.js"></script>
 </body>
 </html>
