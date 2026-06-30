@@ -2120,6 +2120,39 @@ body.theme-dark .science-video{
     .science-video{
         display:block;
         width:100%;}
+    /* Change these positions for your actual map */
+    .map-location-1{ left: 52.5%; top: 52%; } /*missouri1*/
+    .map-location-2{ left: 74%; top: 31%; } /*newyork1*/
+    .map-location-3{ left: 76.4%; top: 57.8%; } /*northcarolina1*/
+    .map-location-4{ left: 50.6%; top: 28%; } /*minnesota*/
+    .map-location-5{ left: 8%; top: 19.2%; } /*orgeon*/
+    .map-location-6{ left: 51.2%; top: 38.5%; } /*iowa1*/
+    .map-location-7{ left: 12.5%; top: 63.5%; } /*california1*/
+    .map-location-8{ left: 11.5%; top: 61.5%; } /*california2*/
+    .map-location-9{ left: 45.5%; top: 80%; } /*texas1*/
+    .map-location-10{ left: 45.5%; top: 83%; } /*texas2*/
+    .map-location-11{ left: 37.65%; top: 65.9%; } /*texas3*/
+    .map-location-12{ left: 71.6%; top: 81%; } /*florida*/
+    .map-location-13{ left: 51.4%; top: 49.4%; } /*missouri2*/
+    .map-location-14{ left: 56.6%; top: 33%; } /*wisconsin1*/
+    .map-location-15{ left: 58.5%; top: 33%; } /*wisconsin2*/
+    .map-location-16{ left: 64%; top: 33%; } /*michigan*/
+    .map-location-17{ left: 45.3%; top: 38.25%; } /*nebraska1*/
+    .map-location-18{ left: 45.8%; top: 41.5%; } /*nebraska2*/
+    .map-location-19{ left: 45.8%; top: 44%; } /*nebraska3*/
+    .map-location-20{ left: 76.9%; top: 56.3%; } /*northcarolina2*/
+    .map-location-21{ left: 51.3%; top: 35.3%; } /*iowa2*/
+    .map-location-22{ left: 49.4%; top: 37%; } /*iowa3*/
+    .map-location-23{ left: 49.6%; top: 40.5%; } /*iowa4*/
+    .map-location-24{ left: 58.3%; top: 46%; } /*illinois1*/
+    .map-location-25{ left: 59.3%; top: 44.5%; } /*illinois2*/
+    .map-location-26{ left: 58%; top: 49%; } /*illinois3*/
+    .map-location-27{ left: 76.5%; top: 26.3%; } /*newyork2*/
+    .map-location-28{ left: 76%; top: 30.5%; } /*newyork3*/
+    .map-location-29{ left: 77%; top: 29%; } /*newyork4*/
+    .map-location-USDA{ left: 79%; top: 72%; } 
+    .map-location-university{ left: 79%; top: 79%; }
+
 
 }
 
