@@ -241,7 +241,7 @@ const teamModalLink = document.getElementById('teamModalLink');
 
 const teamCards = {
   missouri1: {
-    image: 'images/Flint-GarciaLab.WEBP',
+    image: 'images/Flint-Garcia Lab.jpeg',
     kicker: 'Missouri, USA',
     title: 'Flint-Garcia Lab',
     text: 'Optimizing maize nitrogen mobilization to create natural slow-release fertilizers.',
@@ -324,7 +324,7 @@ const teamCards = {
     link: 'https://hos.ifas.ufl.edu/people/on-campus-faculty/carlos-d-messina/' 
   }, 
   missouri2: {
-    image: 'images/WashburnLab3.WEBP',
+    image: 'images/WashburnLab3.jpeg',
     kicker: 'Missouri, USA',
     title: 'Washburn Lab',
     text: 'Leveraging genetic diversity to improve plant resilience.',
@@ -358,9 +358,9 @@ const teamCards = {
     text: 'Evaluating soil and yield impacts of corn stover removal in rainfed and irrigated systems.',
     link: 'https://agronomy.unl.edu/jin/' 
   }, 
-  nebraska2: {
+  michigan2: {
     image: 'images/CERCA_logo.png',
-    kicker: 'Nebraska, USA',
+    kicker: 'Michigan, USA',
     title: 'Roston Lab',
     text: '',
     link: 'https://www.rostonlab.com/' 
@@ -407,13 +407,6 @@ const teamCards = {
     text: 'Testing mitigation strategies for reducing greenhouse gases from agricultural systems.',
     link: 'https://publish.illinois.edu/ainsworthlab/' 
   },
-  illinois2: {
-    image: 'images/MatthewBrooks.jpg',
-    kicker: 'Illinois, USA',
-    title: 'Matthew Brooks',
-    text: 'Integrating transcriptomics and physiology to decode photosynthetic and nitrogen-use networks.',
-    link: 'https://sib.illinois.edu/directory/profile/mb5886' 
-  },
   illinois3: {
     image: 'images/CERCA_logo.png',
     kicker: 'Illinois, USA',
@@ -441,6 +434,20 @@ const teamCards = {
     title: 'Pineros Lab',
     text: '',
     link: 'https://cals.cornell.edu/people/miguel-pineros' 
+  },
+   pennsylvania1: {
+    image: 'images/RuairidhSawers.jpeg',
+    kicker: 'Penssylvania, USA',
+    title: 'Sawers Lab',
+    text: 'Revealing local adaptation and stress tolerance in crop plants and their wild relatives.',
+    link: 'https://iee.psu.edu/people/ruairidh-sawers' 
+  },
+  michigan3: {
+    image: 'images/RuthieAngelovici.jpg',
+    kicker: 'Michigan, USA',
+    title: 'Angelovici Lab',
+    text: 'Uncovering the metabolic and genetic mechanisms driving the amino acid network’s response.',
+    link: 'https://scholars.msu.edu/scholar/904409/RUTHIE-ANGELOVICI?unitId=667&unitType=2' 
   },
 };
 
