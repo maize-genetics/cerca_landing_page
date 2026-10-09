@@ -6,13 +6,22 @@ Static marketing/landing site for the CERCA initiative. Built with plain HTML, C
 
 ## Local preview
 
-No build is required. Serve the folder with any static file server, for example:
+There is no build step. To see the site on your computer, run this in the
+project folder:
 
 ```bash
-python3 -m http.server 8000
+npx serve .
 ```
 
-Then open <http://localhost:8000/>.
+Then open <http://localhost:3000/>.
+
+You need [Node.js](https://nodejs.org/) installed to use `npx`.
+
+Page links do not end in `.html` (for example, `/contact` instead of
+`/contact.html`). `npx serve` handles these links the same way GitHub Pages
+does. Other servers, like `python3 -m http.server`, do not, so links between
+pages will break. Opening the HTML files straight from your file browser will
+also break the links.
 
 
 ## Contact form configuration
