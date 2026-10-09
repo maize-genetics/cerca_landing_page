@@ -560,14 +560,30 @@ body.theme-dark .brand-title,
 body.theme-dark .drop-btn{
     color:var(--cream)}
 body.theme-dark .nav-links>a{
-    color:var(--forest)}
+    color:var(--text-main)}
+body.theme-dark .nav-links>a:hover,
+body.theme-dark .drop-btn:hover,
+body.theme-dark .drop:hover .drop-btn{
+    background:rgba(249,242,178,.10);
+    color:var(--cream)}
+body.theme-dark .nav-links>a.active{
+    background:rgba(241,207,98,.18);
+    color:var(--cream)}
+body.theme-dark .nav-cta,
+body.theme-dark .nav-links>a.nav-cta{
+    background:var(--gold);
+    color:var(--forest);
+    border-color:rgba(241,207,98,.4)}
+body.theme-dark .nav-cta:hover{
+    box-shadow:0 16px 32px rgba(0,0,0,.32)}
 body.theme-dark .brand-tagline{
-    color:rgba(249,242,178,.7)}
+    color:rgba(249,242,178,.85)}
 body.theme-dark .nav-wrap{
-    background:rgba(16,32,25,.58);
-    border-bottom-color:rgba(249,242,178,.10)} 
+    background:rgba(16,32,25,.82);
+    border-bottom-color:rgba(249,242,178,.16)} 
 body.theme-dark .nav-wrap.scrolled{
-    background:rgba(16,32,25,.80)}
+    background:rgba(16,32,25,.94);
+    box-shadow:0 10px 28px rgba(0,0,0,.35)}
 body.theme-dark .section-nav{
     background:var(--section-nav-bg);
     border-bottom-color:var(--border-soft)} 
@@ -727,6 +743,11 @@ body.theme-dark .supporter-logo-card2 img{
       display:none}
     .drop.open .drop-menu{
       display:block}
+    body.theme-dark .nav-links{
+      background:rgba(16,32,25,.96);
+      border-color:rgba(249,242,178,.16)}
+    body.theme-dark .drop-menu{
+      background:rgba(255,255,255,.04)}
     .premium-hero-grid{
       padding-top:calc(var(--nav-h) + 1.2rem)}
     .footer-top{
