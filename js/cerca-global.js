@@ -1,7 +1,11 @@
 // JavaScript Document
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-document.querySelectorAll('.nav-links > a[href$=".html"]').forEach(link => {
-  if (link.getAttribute('href') === currentPage) link.classList.add('active');
+const pageSlug = path => {
+  const slug = path.split(/[?#]/)[0].split('/').pop().replace(/\.html$/, '');
+  return slug === '' || slug === '.' || slug === 'index' ? 'index' : slug;
+};
+const currentPage = pageSlug(window.location.pathname);
+document.querySelectorAll('.nav-links > a').forEach(link => {
+  if (pageSlug(link.getAttribute('href')) === currentPage) link.classList.add('active');
 });
 
 const navWrap = document.getElementById('siteNav') || document.querySelector('.nav-wrap');
