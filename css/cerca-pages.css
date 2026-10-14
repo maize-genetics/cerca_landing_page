@@ -654,7 +654,9 @@
 
 .partner-map{
     position: relative;
-    width: 100%;}
+    width: 100%;
+    border-radius: var(--radius-md);
+    overflow: hidden;}
 
 .partner-map-svg{
     width: 100%;

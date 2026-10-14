@@ -13,7 +13,7 @@ const teamCards = {
     link: 'https://flint-garcias.mufaculty.umsystem.edu/',
     state: 'Missouri',
     place: 'Columbia, MO',
-    lat: 38.95, lon: -92.33,
+    lat: 38.9426, lon: -92.3221,
     affiliation: USDA
   },
   newyork1: {
@@ -24,7 +24,7 @@ const teamCards = {
     link: 'https://www.maizegenetics.net/',
     state: 'New York',
     place: 'Ithaca, NY',
-    lat: 42.45, lon: -76.48,
+    lat: 42.4487, lon: -76.4668,
     affiliation: USDA
   },
   northcarolina1: {
@@ -35,7 +35,7 @@ const teamCards = {
     link: 'https://www.gemmalab.org/',
     state: 'North Carolina',
     place: 'Raleigh, NC',
-    lat: 35.79, lon: -78.68,
+    lat: 35.7868, lon: -78.6795,
     affiliation: UNIVERSITY
   },
   minnesota: {
@@ -46,7 +46,7 @@ const teamCards = {
     link: 'https://hirschlab.cfans.umn.edu//',
     state: 'Minnesota',
     place: 'St. Paul, MN',
-    lat: 44.98, lon: -93.18,
+    lat: 44.9846, lon: -93.1847,
     affiliation: UNIVERSITY
   },
   oregon: {
@@ -56,7 +56,7 @@ const teamCards = {
     text: '',
     state: 'Oregon',
     place: 'Corvallis, OR',
-    lat: 44.56, lon: -123.26,
+    lat: 44.5646, lon: -123.262,
     affiliation: UNIVERSITY
   },
   iowa1: {
@@ -67,7 +67,7 @@ const teamCards = {
     link: 'https://www.zeagenomics.org/',
     state: 'Iowa',
     place: 'Ames, IA',
-    lat: 42.03, lon: -93.65,
+    lat: 42.0266, lon: -93.6465,
     affiliation: UNIVERSITY
   },
   california1: {
@@ -78,7 +78,7 @@ const teamCards = {
     link: 'https://michael.salk.edu/',
     state: 'California',
     place: 'La Jolla, CA',
-    lat: 32.93, lon: -117.07,
+    lat: 32.8873, lon: -117.2454,
     affiliation: UNIVERSITY
   },
   california2: {
@@ -89,7 +89,7 @@ const teamCards = {
     link: 'https://busch.salk.edu/',
     state: 'California',
     place: 'La Jolla, CA',
-    lat: 32.93, lon: -117.07,
+    lat: 32.8873, lon: -117.2454,
     affiliation: UNIVERSITY
   },
   texas1: {
@@ -100,7 +100,7 @@ const teamCards = {
     link: 'https://soilcrop.tamu.edu/people/murray-seth-c/',
     state: 'Texas',
     place: 'College Station, TX',
-    lat: 30.61, lon: -96.34,
+    lat: 30.6102, lon: -96.345,
     affiliation: UNIVERSITY
   },
   texas2: {
@@ -111,7 +111,7 @@ const teamCards = {
     link: 'https://soilcrop.tamu.edu/people/okumoto-sakiko/',
     state: 'Texas',
     place: 'College Station, TX',
-    lat: 30.61, lon: -96.34,
+    lat: 30.6102, lon: -96.345,
     affiliation: UNIVERSITY
   },
   texas3: {
@@ -122,7 +122,7 @@ const teamCards = {
     link: 'https://www.ars.usda.gov/plains-area/lubbock-tx/cropping-systems-research-laboratory/plant-stress-and-germplasm-development-research/people/jumping-chen/',
     state: 'Texas',
     place: 'Lubbock, TX',
-    lat: 33.58, lon: -101.85,
+    lat: 33.5944, lon: -101.9033,
     affiliation: USDA
   },
   florida: {
@@ -133,7 +133,7 @@ const teamCards = {
     link: 'https://hos.ifas.ufl.edu/people/on-campus-faculty/carlos-d-messina/',
     state: 'Florida',
     place: 'Gainesville, FL',
-    lat: 29.64, lon: -82.35,
+    lat: 29.6436, lon: -82.3549,
     affiliation: UNIVERSITY
   },
   missouri2: {
@@ -144,7 +144,7 @@ const teamCards = {
     link: 'https://jacobwashburn-usda.github.io/LabProtocols/about.html',
     state: 'Missouri',
     place: 'Columbia, MO',
-    lat: 38.95, lon: -92.33,
+    lat: 38.9426, lon: -92.3221,
     affiliation: USDA
   },
   wisconsin1: {
@@ -155,7 +155,7 @@ const teamCards = {
     link: 'https://cornbreeding.wisc.edu/',
     state: 'Wisconsin',
     place: 'Madison, WI',
-    lat: 43.07, lon: -89.41,
+    lat: 43.0742, lon: -89.4125,
     affiliation: UNIVERSITY
   },
   wisconsin2: {
@@ -166,7 +166,7 @@ const teamCards = {
     link: 'https://www.glbrc.org/about/directory/shawn-kaeppler-0',
     state: 'Wisconsin',
     place: 'Madison, WI',
-    lat: 43.07, lon: -89.41,
+    lat: 43.0742, lon: -89.4125,
     affiliation: UNIVERSITY
   },
   michigan: {
@@ -177,7 +177,7 @@ const teamCards = {
     link: 'https://basso.glg.msu.edu/?_gl=1*7wblr7*_ga*NzY3Mzg5OTc3LjE3ODE2MjU5MjU.*_ga_D7271B6VVJ*czE3ODE2MjU5MjgkbzEkZzAkdDE3ODE2MjU5MjgkajYwJGwwJGgw',
     state: 'Michigan',
     place: 'East Lansing, MI',
-    lat: 42.73, lon: -84.48,
+    lat: 42.7245, lon: -84.48,
     affiliation: UNIVERSITY
   },
   nebraska1: {
@@ -188,7 +188,7 @@ const teamCards = {
     link: 'https://agronomy.unl.edu/jin/',
     state: 'Nebraska',
     place: 'Lincoln, NE',
-    lat: 40.82, lon: -96.70,
+    lat: 40.8366, lon: -96.6803,
     affiliation: USDA
   },
   michigan2: {
@@ -199,7 +199,7 @@ const teamCards = {
     link: 'https://www.rostonlab.com/',
     state: 'Michigan',
     place: 'East Lansing, MI',
-    lat: 42.73, lon: -84.48,
+    lat: 42.7245, lon: -84.48,
     affiliation: UNIVERSITY
   },
   nebraska3: {
@@ -210,7 +210,7 @@ const teamCards = {
     link: 'https://holdinglab.unl.edu/',
     state: 'Nebraska',
     place: 'Lincoln, NE',
-    lat: 40.82, lon: -96.70,
+    lat: 40.8366, lon: -96.6803,
     affiliation: UNIVERSITY
   },
   northcarolina2: {
@@ -221,7 +221,7 @@ const teamCards = {
     link: 'https://cals.ncsu.edu/crop-and-soil-sciences/people/jholland/',
     state: 'North Carolina',
     place: 'Raleigh, NC',
-    lat: 35.79, lon: -78.68,
+    lat: 35.7868, lon: -78.6795,
     affiliation: USDA
   },
   iowa2: {
@@ -232,7 +232,7 @@ const teamCards = {
     link: 'https://www.ars.usda.gov/midwest-area/ames/nlae/people/bryan-emmett/',
     state: 'Iowa',
     place: 'Ames, IA',
-    lat: 42.03, lon: -93.65,
+    lat: 42.0217, lon: -93.6452,
     affiliation: USDA
   },
   iowa3: {
@@ -243,7 +243,7 @@ const teamCards = {
     link: 'https://www.ars.usda.gov/midwest-area/ames/cicgru/people/paul-scott/',
     state: 'Iowa',
     place: 'Ames, IA',
-    lat: 42.03, lon: -93.65,
+    lat: 42.0215, lon: -93.652,
     affiliation: USDA
   },
   iowa4: {
@@ -254,7 +254,7 @@ const teamCards = {
     link: 'https://www.agron.iastate.edu/people/castellano-michael/',
     state: 'Iowa',
     place: 'Ames, IA',
-    lat: 42.03, lon: -93.65,
+    lat: 42.0289, lon: -93.6494,
     affiliation: UNIVERSITY
   },
   illinois1: {
@@ -265,7 +265,7 @@ const teamCards = {
     link: 'https://publish.illinois.edu/ainsworthlab/',
     state: 'Illinois',
     place: 'Urbana, IL',
-    lat: 40.11, lon: -88.21,
+    lat: 40.102, lon: -88.2272,
     affiliation: UNIVERSITY
   },
   illinois3: {
@@ -276,7 +276,7 @@ const teamCards = {
     link: 'https://nres.illinois.edu/directory/kaiyug',
     state: 'Illinois',
     place: 'Urbana, IL',
-    lat: 40.11, lon: -88.21,
+    lat: 40.1016, lon: -88.2238,
     affiliation: UNIVERSITY
   },
   newyork2: {
@@ -287,7 +287,7 @@ const teamCards = {
     link: 'https://blogs.cornell.edu/gorelab/',
     state: 'New York',
     place: 'Ithaca, NY',
-    lat: 42.45, lon: -76.48,
+    lat: 42.4482, lon: -76.4779,
     affiliation: UNIVERSITY
   },
   newyork3: {
@@ -298,7 +298,7 @@ const teamCards = {
     link: 'https://blogs.cornell.edu/jianhualab/',
     state: 'New York',
     place: 'Ithaca, NY',
-    lat: 42.45, lon: -76.48,
+    lat: 42.4478, lon: -76.4768,
     affiliation: UNIVERSITY
   },
   newyork4: {
@@ -309,7 +309,7 @@ const teamCards = {
     link: 'https://cals.cornell.edu/people/miguel-pineros',
     state: 'New York',
     place: 'Ithaca, NY',
-    lat: 42.45, lon: -76.48,
+    lat: 42.4487, lon: -76.4668,
     affiliation: USDA
   },
   pennsylvania1: {
@@ -320,7 +320,7 @@ const teamCards = {
     link: 'https://iee.psu.edu/people/ruairidh-sawers',
     state: 'Pennsylvania',
     place: 'State College, PA',
-    lat: 40.79, lon: -77.86,
+    lat: 40.7982, lon: -77.8599,
     affiliation: UNIVERSITY
   },
   michigan3: {
@@ -331,7 +331,7 @@ const teamCards = {
     link: 'https://scholars.msu.edu/scholar/904409/RUTHIE-ANGELOVICI?unitId=667&unitType=2',
     state: 'Michigan',
     place: 'East Lansing, MI',
-    lat: 42.73, lon: -84.48,
+    lat: 42.7245, lon: -84.48,
     affiliation: UNIVERSITY
   },
 };
@@ -392,21 +392,28 @@ function buildPartnerMap(container, usAtlas) {
   const projection = d3.geoAlbersUsa().fitExtent([[10, 10], [width - 10, height - 10]], states);
   const path = d3.geoPath(projection);
 
-  // Labs sharing a city are pushed onto a small ring so each dot stays clickable.
-  const clusters = d3.group(teams, team => `${team.lat},${team.lon}`);
-  const points = [];
-  clusters.forEach(members => {
-    const base = projection([members[0].lon, members[0].lat]);
-    if (!base) return;
-    const spread = members.length > 1 ? 7 + members.length * 1.7 : 0;
-    members.forEach((team, index) => {
+  const points = teams.map(team => {
+    const projected = projection([team.lon, team.lat]);
+    return projected && { team, x: projected[0], y: projected[1], offsetX: 0, offsetY: 0 };
+  }).filter(Boolean);
+
+  // Labs on the same campus land on the same pixel, so each one is nudged onto the
+  // smallest ring that keeps it clickable, centred on its own true position. The
+  // nudge is measured in dot radii and shrinks with zoom, so the dots settle back
+  // onto their real coordinates as the map is zoomed in.
+  const OVERLAP_DISTANCE = 14;
+  const groups = [];
+  points.forEach(point => {
+    const group = groups.find(([first]) => Math.hypot(first.x - point.x, first.y - point.y) < OVERLAP_DISTANCE);
+    if (group) group.push(point); else groups.push([point]);
+  });
+  groups.forEach(members => {
+    if (members.length < 2) return;
+    const ring = 1.15 / Math.sin(Math.PI / members.length);
+    members.forEach((point, index) => {
       const angle = (index / members.length) * Math.PI * 2 - Math.PI / 2;
-      points.push({
-        team,
-        key: Object.keys(teamCards).find(id => teamCards[id] === team),
-        x: base[0] + Math.cos(angle) * spread,
-        y: base[1] + Math.sin(angle) * spread
-      });
+      point.offsetX = Math.cos(angle) * ring;
+      point.offsetY = Math.sin(angle) * ring;
     });
   });
 
@@ -460,8 +467,6 @@ function buildPartnerMap(container, usAtlas) {
     .data(points)
     .join('circle')
     .attr('class', d => `partner-map-dot is-${d.team.affiliation}`)
-    .attr('cx', d => d.x)
-    .attr('cy', d => d.y)
     .attr('tabindex', 0)
     .attr('role', 'button')
     .attr('aria-label', d => `${d.team.title}, ${d.team.place}`)
@@ -490,14 +495,18 @@ function buildPartnerMap(container, usAtlas) {
   let baseRadius = 6;
   let currentScale = 1;
 
-  function sizeDots() {
-    const shrink = Math.sqrt(currentScale);
-    dots.attr('r', baseRadius / shrink).attr('stroke-width', (baseRadius * 0.7) / shrink);
+  function placeDots() {
+    const radius = baseRadius / Math.sqrt(currentScale);
+    dots
+      .attr('cx', d => d.x + d.offsetX * radius)
+      .attr('cy', d => d.y + d.offsetY * radius)
+      .attr('r', radius)
+      .attr('stroke-width', radius * 0.7);
   }
 
   function fitDotsToWidth() {
     baseRadius = Math.min(12, Math.max(6, 3.3 * (width / (container.clientWidth || width))));
-    sizeDots();
+    placeDots();
   }
 
   fitDotsToWidth();
@@ -521,7 +530,7 @@ function buildPartnerMap(container, usAtlas) {
     currentScale = k;
     mapLayer.attr('transform', event.transform);
     statePaths.attr('stroke-width', 1 / k);
-    sizeDots();
+    placeDots();
     resetButton.classed('is-visible', k > 1.01);
     hideTooltip();
   }
