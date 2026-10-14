@@ -30,7 +30,15 @@
     --section-link-active-text:#213827; 
     --shadow-soft:0 14px 36px rgba(33,56,39,.10); 
     --primary-nav-height:84px; 
-    --secondary-nav-height:52px;}
+    --secondary-nav-height:52px;
+    --map-state:#D9DAD5;
+    --map-stroke:#FFFCF6;
+    --map-state-partner:#B9C9B4;
+    --map-state-partner-hover:#A3B89D;
+    --map-dot-usda:#426F4D;
+    --map-dot-usda-halo:rgba(66,111,77,.22);
+    --map-dot-university:#F1CF62;
+    --map-dot-university-halo:rgba(241,207,98,.30);}
 body.theme-dark{
     --bg:#102019; 
     /*--surface:#13241d; */
@@ -57,7 +65,15 @@ body.theme-dark{
     --card-dark-text: #F6F3E8;
     --card-dark-muted: rgba(246,243,232,.76);
     --card-dark-shadow: 0 16px 40px rgba(0,0,0,0.24);
-    --card-dark-hover-shadow: 0 22px 52px rgba(0,0,0,0.32);}
+    --card-dark-hover-shadow: 0 22px 52px rgba(0,0,0,0.32);
+    --map-state:rgba(246,243,232,.16);
+    --map-stroke:rgba(16,32,25,.85);
+    --map-state-partner:rgba(166,197,161,.42);
+    --map-state-partner-hover:rgba(166,197,161,.60);
+    --map-dot-usda:#8FC79B;
+    --map-dot-usda-halo:rgba(143,199,155,.26);
+    --map-dot-university:#F1CF62;
+    --map-dot-university-halo:rgba(241,207,98,.26);}
 
 
 *{box-sizing:border-box}
