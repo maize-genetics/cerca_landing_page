@@ -17,6 +17,7 @@
     --max:1240px; 
     --nav-h:84px;
     --bg:#FFFCF6; 
+    --bg-fade-rgb:255,252,246;
     --surface:#fff; 
     --surface-soft:rgba(255,255,255,.62); 
     --surface-main:rgba(255,252,246,.86);
@@ -41,6 +42,7 @@
     --map-dot-university-halo:rgba(241,207,98,.30);}
 body.theme-dark{
     --bg:#102019; 
+    --bg-fade-rgb:16,32,25;
     /*--surface:#13241d; */
     --bg-soft: rgba(16,32,25,.82);
     --surface-soft:rgba(24,41,32,.68); 
@@ -105,14 +107,16 @@ body::after{
     opacity: 0.15; /*adjust intensity*/
     pointer-events: none;
     z-index: 0;
+    -webkit-mask-image: linear-gradient(to top, #000 55%, transparent 100%);
+    mask-image: linear-gradient(to top, #000 55%, transparent 100%);
     transform: scale(1.02);} /* slight zoom to make a subtle deep*/
 
 body.page-science::after{
-    background-image: linear-gradient(to top, rgba(255,252,246,0) 0%,rgba(255,252,246,0.6) 60%,rgba(255,252,246,0.95) 100%),url("../images/background_science.JPG");}
+    background-image: linear-gradient(to top, rgba(var(--bg-fade-rgb),0) 0%,rgba(var(--bg-fade-rgb),0.6) 60%,rgba(var(--bg-fade-rgb),0.95) 100%),url("../images/background_science.JPG");}
 body.page-impact::after{
-    background-image: linear-gradient(to top, rgba(255,252,246,0) 0%,rgba(255,252,246,0.6) 60%,rgba(255,252,246,0.95) 100%),url("../images/background_impact.JPG");}
+    background-image: linear-gradient(to top, rgba(var(--bg-fade-rgb),0) 0%,rgba(var(--bg-fade-rgb),0.6) 60%,rgba(var(--bg-fade-rgb),0.95) 100%),url("../images/background_impact.JPG");}
 body.page-index::after{
-    background-image: linear-gradient(to top, rgba(255,252,246,0) 0%,rgba(255,252,246,0.6) 60%,rgba(255,252,246,0.95) 100%),url("../images/background_index.JPG");}
+    background-image: linear-gradient(to top, rgba(var(--bg-fade-rgb),0) 0%,rgba(var(--bg-fade-rgb),0.6) 60%,rgba(var(--bg-fade-rgb),0.95) 100%),url("../images/background_index.JPG");}
 
 
 
